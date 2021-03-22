@@ -49,5 +49,3 @@ st.write("## Mark it Done")
 done_task = st.selectbox("Task", df["name"].values)
 if st.button("Done!"):
     remove_item(done_task)
-
-
